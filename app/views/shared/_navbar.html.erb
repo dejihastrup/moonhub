@@ -1,10 +1,10 @@
 <div class="navbar container">
 <%= image_tag 'moonhub-logo' %>
-<%= link_to "HOME", root_path %>
-<%= link_to "TRAINING", root_path %>
-<%= link_to "ABOUT", root_path %>
-<%= link_to "BLOG", root_path %>
-<%= link_to "CONTACT", root_path %>
-<%= link_to "LOG IN", root_path %>
-<%= link_to "SHOP", root_path %>
+<%= link_to "HOME", root_path, class: "#{'active' if params[:action].upcase == 'HOME'}"%>
+<%= link_to "TRAINING", root_path, class: "#{'active' if params[:action].upcase == 'TRAINING'}"%>
+<%= link_to "ABOUT", root_path, class: "#{'active' if params[:action].upcase == 'ABOUT'}" %>
+<%= link_to "BLOG", root_path, class:  "#{'active' if params[:action].upcase == 'BLOG'}" %>
+<%= link_to "CONTACT", root_path, class: "#{'active' if params[:action].upcase == 'CONTACT'}" %>
+<%= link_to "LOG IN", root_path, class: "#{'active' if params[:action].upcase == 'LOG IN'}" %>
+<%= link_to "SHOP", root_path, class: "#{'active' if params[:action].upcase == 'SHOP'}" %>
 </div>

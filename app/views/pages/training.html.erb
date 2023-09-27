@@ -3,22 +3,160 @@
 
   <div class="landing-info">
     <div class="library">
-      <%= image_tag 'Moondarkside' %>
-      <h6> LIBRARY </h6>
-      <p> Developed by leading L&D professionals. <br>
-        The MOONHUB Library is our industry-standard, readily available VR training solutions.<br>
-        Accredited by CPD.</p>
+        <%= image_tag 'Moondarkside' %>
+        <h5> LIBRARY </h5>
+        <p> Developed by leading L&D professionals. <br><br>
+          The MOONHUB Library is our industry-standard, readily available VR training solutions.<br><br><br>
+          Accredited by CPD.</p>
     </div>
 
     <div class="studios">
-    <%= image_tag 'Moonlightside' %>
-    <h6> STUDIOS </h6>
-    <p>Co-curated with you, for you. <br>
-      MOONHUB Studios is your on-demand production house which translates your learning objectives into a bespoke VR training experience. <br>
-      The power of MOONHUB, your way.</p>
+      <%= image_tag 'Moonlightside' %>
+      <h5> STUDIOS </h5>
+      <p>Co-curated with you, for you. <br><br>
+        MOONHUB Studios is your on-demand production house which translates your learning objectives into a bespoke VR training experience. <br><br>
+        The power of MOONHUB, your way.</p>
+    </div>
+  </div>
+  <div class="scroll-cta">
+    <p>Explore our training offering</p>
+    <%= image_tag 'scroll-down', class: "scroll-icon" %>
+  </div>
+</div>
+
+<div class="page-dividers">
+  <%= image_tag 'gradient-left' %>
+  <%= image_tag 'gradient-right' %>
+</div>
+
+<div class="products">
+  <div class="products-intro">
+    <h6>MOONHUB LIBRARY</h6>
+    <p>Corporate training is changing. MOONHUB unlocks your employees’ potential with our state-of-the-art virtual reality training solutions</p>
+  </div>
+
+  <div class="product">
+    <div class="p-headings">
+      <h5>IO</h5>
+      <h6>THE WORKPLACE ESSENTIAL'S TOOLKIT</h6>
+    </div>
+    <div class="p-info">
+      <%= image_tag 'io', class: 'product-pic'%>
+      <div class="p-description">
+        <p>Expertly curated for all teams, our essentials suite provides industry-standard best practices, certified by CPD. <br><br>
+          More than just a training, IO is a transformational experience for your team, where the very essence of each topic comes alive in an engaging and immersive virtual environment, from Diversity and Inclusion to Health and Safety and Well-being.<br><br>
+          With IO, training that is usually just a box to tick transforms into a powerful tool for growth and success.</p>
+      </div>
+    </div>
+    <div class="product-cta">
+      <%= link_to "DISCOVER IO", "#", class: 'cta-button' %>
+    </div>
+  </div>
+  <div class="product">
+    <div class="p-headings">
+      <h5>ELARA</h5>
+      <h6>A MASTERCLASS IN HEALTHCARE</h6>
+    </div>
+    <div class="p-info">
+      <%= image_tag 'elara', class: 'product-pic'%>
+      <div class="p-description">
+        <p>ELARA offers an interactive journey into the world of dementia. Learners will be able to step into the shoes of those afflicted by the condition, gaining key insights into their experiences, emotions, and needs.<br><br>
+          Studied to strengthen soft skills to enhance empathy and deliver superior care.<br><br>
+          ELARA is a holistic, low-risk, highly immersive new health and social care workforce approach.</p>
+      </div>
+    </div>
+    <div class="product-cta">
+      <%= link_to "DISCOVER ELARA", "#", class: 'cta-button' %>
+    </div>
+  </div>
+  <div class="product">
+    <div class="p-headings">
+      <h5>MOONHUB STUDIOS</h5>
+      <h6>TURN YOUR TRAINING DREAMS INTO VIRTUAL REALITY. POWERED BY MOONHUB.</h6>
+    </div>
+    <div class="p-info">
+      <%= image_tag 'moonhub-studios', class: 'product-pic'%>
+      <div class="p-description">
+        <p>Co-curated with you, for you.<br><br>
+          MOONHUB Studios is your on-demand production house which translates your learning objectives into a bespoke VR training experience.<br><br>
+          Our innovative program goes beyond the one-size-fits-all approach by offering a truly bespoke training solution, where you can design training content that aligns perfectly with your requirements.<br><br>
+          The power of MOONHUB, your way.</p>
+      </div>
+    </div>
+    <div class="product-cta">
+      <%= link_to "DISCOVER STUDIOS", "#", class: 'cta-button' %>
     </div>
   </div>
 </div>
 
-<div class="products">
+<div class="page-dividers-2">
+  <%= image_tag 'gradient-left' %>
+  <%= image_tag 'gradient-right' %>
+</div>
+
+<div class="training-3">
+
+  <div class="heading">
+    <h5>YOUR EXPERIENCE DOESN'T END IN THE HEADSET</h5>
+  </div>
+
+  <div class="patent">
+    <h6>OUR PATENT</h6>
+    <p id="patent-desc">Our Spot-and-Jot patented VR technology utilises a 5 layered cognitive scoring system to record <br>learners' performances in ways never done before. <br><br>
+    Learners are tested in gamified training scenarios in five key metrics to equip them with the <br> necessary skills for their roles.</p>
+    <%= image_tag 'patent-diagram' %>
+    <p id="patent-cta">Learn more about our scoring system</p>
+    <%= link_to "GET IN TOUCH", "#", class: "cta-git" %>
+  </div>
+
+  <div class="heading">
+    <h5> YOUR ANALYTICS </h5>
+  </div>
+
+  <div class="analytics">
+    <div class="analytics-stats">
+      <div class="analytic-stat">
+        <%= image_tag 'a-stat-1' %>
+        <p>View, assess and reflect <br> on training scores.</p>
+      </div>
+      <div class="analytic-stat">
+        <%= image_tag 'a-stat-2' %>
+        <p>Verify the training experience with official <br> MOONHUB certificates, accredited by CPD.</p>
+      </div>
+      <div class="analytic-stat">
+        <%= image_tag 'a-stat-3' %>
+        <p>Download additional information packs</p>
+      </div>
+    </div>
+    <div class="analytics-img">
+      <%= image_tag 'laptop-image' %>
+    </div>
+  </div>
+
+  <div class="heading">
+    <h5> WHAT OUR USERS SAY </h5>
+  </div>
+
+  <div class="review-carousel">
+    <div class="review">
+      <p>“Our partnership with MOONHUB has rejuvenated our learning experience, creating a more efficient and enjoyable training platform for our organisation. MOONHUB has changed the negative stigma around mandatory training into a positive, more engaging event.”​</p>
+      <h6>ISS</h6>
+    </div>
+
+    <div class="review">
+      <p>"Our collaboration with MOONHUB has been credited by winning “Outstanding Training Initiative” at the Outstanding Security Performance Awards (OSPAs), in February 2022."</p>
+      <h6>Corps Security</h6>
+    </div>
+
+     <%# <div class="review">
+      <p>"Our collaboration with MOONHUB has been credited by winning “Outstanding Training Initiative” at the Outstanding Security Performance Awards (OSPAs), in February 2022."</p>
+      <h6>Corps Security</h6>
+    </div> %>
+  </div>
+
+  <div class="final-cta">
+    <h5 class="pb-3"> ARE YOU READY TO LAUNCH YOUR TRAINING TO NEW HEIGHTS? </h5>
+    <%= link_to "GET IN TOUCH", "#", class: "cta-git" %>
+  </div>
+
 </div>

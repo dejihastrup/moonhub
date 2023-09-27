@@ -1,0 +1,36 @@
+.cta-button {
+  background-color: #D0D2FF;
+  color: #2A2730;
+  padding: 7px 23px;
+  text-decoration: none;
+  font-size: 8px;
+  font-weight: 600;
+  font-family: "Manrope";
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+.cta-button:hover {
+  background-color: #111656;
+  color: #D0D2FF;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.cta-git {
+  background-color: #5E64E9;
+  color: white;
+  padding: 7px 27px;
+  text-decoration: none;
+  font-size: 8px;
+  font-weight: 600;
+  font-family: "Manrope";
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+
+.cta-git:hover {
+  opacity: 0.7;
+  transition: 0.1s;
+}

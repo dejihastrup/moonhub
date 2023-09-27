@@ -5,19 +5,29 @@
   background: rgba(24, 22, 32, 0.023);
   z-index: 5;
   height: 15vh;
-  top: 0;
-  position: sticky;
+  // top: 0;
+  // position: fixed;
   justify-content: space-around;
 
   img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
   }
 
   a {
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     letter-spacing: 1px;
+  }
+
+  a:hover {
+    color: #9A9EF6;
+    text-decoration: none;
+    transition: 0.1;
+  }
+
+  .active {
+    color: #9A9EF6 !important;
   }
 }
