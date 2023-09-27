@@ -1,8 +1,8 @@
 .navbar{
   width: 77%;
-  padding-top: 20px;
+  padding-top: 25px;
   margin: auto;
-  background: rgba(24, 22, 32, 0.023);
+  background: rgba(24, 22, 32, 0.0);
   z-index: 5;
   height: 15vh;
   // top: 0;
@@ -12,6 +12,7 @@
   img {
     width: 15px;
     height: 15px;
+    margin-right: 18px;
   }
 
   a {
@@ -19,6 +20,10 @@
     color: white;
     font-size: 8px;
     letter-spacing: 1px;
+  }
+
+  .dark {
+    color: black ;
   }
 
   a:hover {
@@ -30,4 +35,30 @@
   .active {
     color: #9A9EF6 !important;
   }
+}
+
+.shop {
+  background-color: #D0D2FF;
+  color: #2A2730 !important;
+  padding: 5px 18px;
+  text-decoration: none;
+  font-size: 8px;
+  font-weight: 600;
+  font-family: "Manrope";
+  letter-spacing: 1px;
+  border-radius: 2px;
+  margin-right: 15px;
+
+}
+
+.log-in {
+    background-color: #5E64E9;
+    color: white;
+    padding: 5px 18px;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 600;
+    font-family: "Manrope";
+    letter-spacing: 1px;
+    border-radius: 2px;
 }
