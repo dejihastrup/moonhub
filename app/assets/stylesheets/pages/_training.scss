@@ -25,6 +25,7 @@
   }
 };
 
+
 // .products {
 //   height: 115vh;
 // }
@@ -64,12 +65,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  // margin-bottom: 30px;
   // padding-top: 10px;
 
   p {
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 300;
-    letter-spacing: 1.8px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
   }
 }
 
