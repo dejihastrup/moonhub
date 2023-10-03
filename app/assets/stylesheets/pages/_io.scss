@@ -63,6 +63,7 @@
     font-size: 32px;
     letter-spacing: 0.8px;
     color: #D0D2FF;
+    margin-bottom: 4px;
   }
 
   p {
@@ -97,6 +98,7 @@
 .io-module {
   width: 77%;
   margin: auto;
+  margin-bottom: 60px;
 }
 
 .module-heading {
@@ -104,16 +106,16 @@
   text-align: center;
 
   h4 {
-      padding-bottom: 10px;
+      padding-bottom: 2px;
       font-size: 16px;
       font-weight: 600;
       letter-spacing: 3px;
   }
 
   h6 {
-    padding-bottom: 10px;
-    font-size: 10px;
-    font-weight: 400;
+    padding-bottom: 2px;
+    font-size: 9px;
+    font-weight: 600;
     letter-spacing: 1px;
   }
 
@@ -124,3 +126,47 @@
     letter-spacing: 0.5px;
   }
 }
+
+.module-info {
+  display: flex;
+  justify-content: space-between;
+
+  .module-pros {
+    width: 170px;
+    text-align: left;
+    h5 {
+        padding-bottom: 2px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+
+    img {
+      width: 170px;
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-size: 8px;
+      font-weight: 300;
+      letter-spacing: 0.6px;
+      line-height: 11px;
+    }
+
+
+  }
+}
+
+
+.module-cta {
+   margin: auto;
+   width: 200px;
+   text-align: center;
+   margin-top: 15px;
+
+   p {
+     font-weight: 600;
+     font-size: 8px;
+   }
+ }
