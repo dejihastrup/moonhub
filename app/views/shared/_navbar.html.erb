@@ -1,8 +1,8 @@
-<% if params[:action].upcase == 'HOME' || params[:action].upcase == 'TRAINING' %>
+<% if params[:action].upcase == 'HOME' || params[:controller].upcase == 'TRAINING' %>
   <div class="navbar container">
     <%= image_tag "moonhub-logo" %>
-    <%= link_to "HOME", root_path, class: "#{'active' if params[:action].upcase == 'HOME'}"%>
-    <%= link_to "TRAINING", training_path, class: "#{'active' if params[:action].upcase == 'TRAINING'}"%>
+    <%= link_to "HOME", root_path, class: "#{'active' if params[:action].upcase == 'HOME' && params[:controller].upcase == 'PAGES'}"%>
+    <%= link_to "TRAINING", training_path, class: "#{'active' if params[:controller].upcase == 'TRAINING'}"%>
     <%= link_to "ABOUT", about_path, class: "#{'active' if params[:action].upcase == 'ABOUT'}" %>
     <%= link_to "BLOG", blog_path, class:  "#{'active' if params[:action].upcase == 'BLOG'}" %>
     <%= link_to "CONTACT", contact_path, class: "#{'active' if params[:action].upcase == 'CONTACT'}" %>

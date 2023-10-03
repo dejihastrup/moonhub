@@ -1,0 +1,219 @@
+.io-landing-section {
+  text-align: center;
+  color: white;
+  background-color: $bg-dark;
+  width: 100%;
+  height: 129vh;
+  // top: 0;
+  // position: absolute;
+  margin-top: -64px;
+  background-image: url('aurora-bg.png');
+  background-size: cover;
+}
+
+.io-info {
+  // font-family: "Manrope";
+  padding-top: 12px;
+  width: 57%;
+  margin: auto;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  line-height: 13px;
+
+  p {
+    margin-bottom: 12px;
+  }
+}
+
+#io-title {
+  padding-top: 13.5%;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 6px;
+}
+
+.io-stats {
+  padding-top: 15px;
+  width: 77%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.io-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  width: 210px;
+
+  .percent {
+    font-weight: 600;
+    font-size: 20px;
+    color: #D0D2FF;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0.8px;
+    color: #D0D2FF;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+  }
+}
+
+#io-scroll {
+  font-size: 8px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 30px;
+  margin-bottom: 8px;
+}
+
+.io-modules {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+  h3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+}
+
+.io-module {
+  width: 77%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.module-heading {
+  margin: auto;
+  text-align: center;
+
+  h4 {
+      padding-bottom: 2px;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 3px;
+  }
+
+  h6 {
+    padding-bottom: 2px;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  p {
+    padding-bottom: 20px;
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+  }
+}
+
+.module-info {
+  display: flex;
+  justify-content: space-between;
+
+  .module-pros {
+    width: 170px;
+    text-align: left;
+    h5 {
+        padding-bottom: 2px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        line-height: 16px;
+        width: 180px;
+    }
+
+    img {
+      width: 170px;
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-size: 8px;
+      font-weight: 300;
+      letter-spacing: 0.6px;
+      line-height: 11px;
+    }
+
+
+  }
+}
+
+.wellbeing-extra {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+  p {
+    font-size: 8px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 11px;
+  }
+
+  img {
+    width: 40px;
+    padding-bottom: 10px;
+  }
+
+  h6 {
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    font-size: 9px;
+  }
+}
+
+.module-cta {
+   margin: auto;
+   width: 350px;
+   text-align: center;
+   margin-top: 15px;
+
+   p {
+     font-weight: 600;
+     font-size: 8px;
+     margin-bottom: 8px;
+   }
+ }
+
+ .wts-section {
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 80px;
+
+    img {
+        width: 60px;
+        padding-bottom: 10px;
+      }
+
+      p {
+        letter-spacing: 1.2px;
+        font-weight: 600;
+        font-size: 9px;
+      }
+
+ }
