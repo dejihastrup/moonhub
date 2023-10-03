@@ -140,7 +140,7 @@
         font-weight: 600;
         letter-spacing: 2px;
         line-height: 16px;
-        width: 175px;
+        width: 180px;
     }
 
     img {
@@ -159,15 +159,61 @@
   }
 }
 
+.wellbeing-extra {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+  p {
+    font-size: 8px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 11px;
+  }
+
+  img {
+    width: 40px;
+    padding-bottom: 10px;
+  }
+
+  h6 {
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    font-size: 9px;
+  }
+}
 
 .module-cta {
    margin: auto;
-   width: 200px;
+   width: 350px;
    text-align: center;
    margin-top: 15px;
 
    p {
      font-weight: 600;
      font-size: 8px;
+     margin-bottom: 8px;
    }
+ }
+
+ .wts-section {
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 80px;
+
+    img {
+        width: 60px;
+        padding-bottom: 10px;
+      }
+
+      p {
+        letter-spacing: 1.2px;
+        font-weight: 600;
+        font-size: 9px;
+      }
+
  }
