@@ -1,4 +1,4 @@
-<% if params[:action].upcase == 'HOME' || params[:controller].upcase == 'TRAINING' %>
+<% if params[:controller].upcase == 'PAGES' || params[:controller].upcase == 'TRAINING' %>
   <div class="navbar container">
     <%= image_tag "moonhub-logo" %>
     <%= link_to "HOME", root_path, class: "#{'active' if params[:action].upcase == 'HOME' && params[:controller].upcase == 'PAGES'}"%>
@@ -16,7 +16,7 @@
     <%= image_tag "moonhub-logo-dark" %>
     <%= link_to "HOME", root_path, class: "dark " + "#{'active' if params[:action].upcase == 'HOME'}"%>
     <%= link_to "TRAINING", training_path, class: "dark " + "#{'active' if params[:action].upcase == 'TRAINING'}"%>
-    <%= link_to "ABOUT", about_path, class: "dark " + "#{'active' if params[:action].upcase == 'ABOUT'}" %>
+    <%= link_to "ABOUT", about_path, class: "dark dropdown" + "#{'active' if params[:action].upcase == 'ABOUT'}" %>
     <%= link_to "BLOG", blog_path, class:  "dark " + "#{'active' if params[:action].upcase == 'BLOG'}" %>
     <%= link_to "CONTACT", contact_path, class: "dark " + "#{'active' if params[:action].upcase == 'CONTACT'}" %>
     <div class="d-flex">
@@ -25,3 +25,16 @@
     </div>
   </div>
 <% end %>
+
+<div class="about-dropdown">
+  <%= link_to press_path do %>
+    <div>
+      <h3>PRESS</h3>
+    </div>
+  <% end %>
+  <%= link_to career_path do %>
+    <div>
+      <h3> CAREERS </h3>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,110 @@
+.press-section {
+  text-align: center;
+  color: black;
+  width: 100%;
+  height: 149vh;
+  // top: 0;
+  // position: absolute;
+  margin-top: -64px;
+  background-image: url('aurora-white.png');
+  background-size: cover;
+}
+
+.press-title {
+  display: flex;
+  padding-top: 14.5%;
+
+  h3 {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3.5px;
+    padding-left: 55px;
+  }
+
+  width: 70%;
+  margin: auto;
+
+  img {
+    width: 25px;
+  }
+}
+
+
+.press-desc {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+
+  p {
+      text-align: center;
+      font-size: 8px;
+      font-weight: 300;
+      letter-spacing: 0.3px;
+      line-height: 13px;
+      margin-bottom: 15px;
+      padding-right: 81px;
+    }
+
+
+    img {
+      height: 25px;
+    }
+
+  margin-bottom: 40px;
+
+}
+
+.cards-container {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    .press-blog {
+      box-shadow: 0 0 15px #5e65e9;
+    }
+  }
+}
+
+.press-blog {
+  width: 150px;
+  height: 190px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding-left: 0px !important;
+  padding-right: 0px!important;
+  border-radius: 3%;
+}
+
+.press-blog>img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.press-blog h2 {
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.press-blog p {
+  color: #697797;
+  font-size: 6px;
+  padding-bottom: 20px
+}
+
+
+
+.press-blog-infos {
+  text-align: left;
+  padding: 10px;
+}
