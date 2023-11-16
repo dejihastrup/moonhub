@@ -5,10 +5,11 @@
   height: 149vh;
   // top: 0;
   // position: absolute;
-  margin-top: -64px;
+  margin-top: -80px;
   background-image: url('aurora-white.png');
   background-size: cover;
 }
+
 
 ol, ul {
   list-style: none !important;
@@ -24,60 +25,62 @@ ol, ul {
 }
 #about-home-title {
   display: flex;
-  padding-top: 14.5%;
+  padding-top: 12.5%;
   h3 {
     font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 3.5px;
-    padding-left: 35px;
+    font-size: 32px;
+    letter-spacing: 6.5px;
+    padding-left: 78px;
   }
   width: 60%;
   margin: auto;
 
   img {
-    width: 25px;
+    width: 50px;
   }
 }
 
 .about-home-info {
       // font-family: "Manrope";
-  padding-top: 12px;
-  width: 57%;
-  margin: auto;
-  text-align: center;
-  font-size: 8px;
-  font-weight: 300;
-  letter-spacing: 0.3px;
-  line-height: 13px;
-  margin-bottom: 15px;
+padding-top: 52px;
+padding-left: 30px;
+padding-right: 30px;
+width: 67%;
+margin: auto;
+text-align: center;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: 1px;
+line-height: 23px;
+margin-bottom: 15px;
 
   p {
-    margin-bottom: 12px;
+    margin-bottom: 18px;
   }
 
   #p-icon {
     p {
-      padding-right: 21px;
+      padding-right: 72px;
     }
     display: flex;
     justify-content: end;
     img {
-      height: 25px;
+      height: 50px;
     }
   }
 }
 
 
 .our-values {
-  padding-top: 15px;
-  width: 57%;
+  padding-top: 50px;
+  width: 67%;
   margin: auto;
 
   h3 {
       font-weight: 600;
-      font-size: 16px;
-      letter-spacing: 3.5px;
-      margin-bottom: 20px;
+      font-size: 32px;
+      letter-spacing: 6.5px;
+      margin-bottom: 50px;
     }
 }
 
@@ -92,21 +95,22 @@ ol, ul {
 
 .value {
 
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   h5 {
     text-align: center;
     font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 1.2px;
+    font-size: 24px;
+    letter-spacing: 3.2px;
     color: #5E64E9;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
   }
 
   p {
     color: black;
-    font-size: 8px;
-    font-weight: 100;
-    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 23px;
   }
 }
 
@@ -115,8 +119,8 @@ ol, ul {
 text-align: center;
   h3 {
       font-weight: 600;
-      font-size: 16px;
-      letter-spacing: 3.5px;
+      font-size: 32px;
+      letter-spacing: 6.5px;
       margin-bottom: 25px;
     }
 }
@@ -124,15 +128,16 @@ text-align: center;
 
 .about-cta {
   margin: auto;
-  width: 350px;
+  width: 60%;
   text-align: center;
   margin-top: 35px;
   margin-bottom: 80px;
 
   p {
-    letter-spacing: 0.8px;
+    letter-spacing: 2.5px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 25px;
+    margin-bottom: 35px;
   }
 }
 

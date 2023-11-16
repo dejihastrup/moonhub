@@ -1,0 +1,70 @@
+.careers-section {
+  text-align: center;
+  color: black;
+  width: 100%;
+  height: 149vh;
+  // top: 0;
+  // position: absolute;
+  margin-top: -80px;
+  background-image: url('aurora-white.png');
+  background-size: cover;
+}
+
+.careers-title {
+  display: flex;
+  padding-top: 12.5%;
+  padding-bottom: 20px;
+
+  h3 {
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 6.5px;
+    padding-left: 82px;
+  }
+
+  width: 60%;
+  margin: auto;
+
+  img {
+    width: 50px;
+  }
+}
+
+
+.careers-desc {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+
+  h5 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 23px;
+    // margin-bottom: 65px;
+    padding-right: 37px;
+  }
+
+
+  img {
+    height: 50px;
+    margin-top: -18px;
+  }
+
+  // margin-bottom: 60px;
+}
+
+.careers-tag {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+}

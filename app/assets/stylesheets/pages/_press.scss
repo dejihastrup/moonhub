@@ -5,53 +5,54 @@
   height: 149vh;
   // top: 0;
   // position: absolute;
-  margin-top: -64px;
+  margin-top: -80px;
   background-image: url('aurora-white.png');
   background-size: cover;
 }
 
 .press-title {
   display: flex;
-  padding-top: 14.5%;
+  padding-top: 12.5%;
+  padding-bottom: 10px;
 
   h3 {
     font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 3.5px;
-    padding-left: 55px;
+    font-size: 32px;
+    letter-spacing: 6.5px;
+    padding-left: 100px;
   }
 
-  width: 70%;
+  width: 60%;
   margin: auto;
 
   img {
-    width: 25px;
+    width: 50px;
   }
 }
 
 
 .press-desc {
-  width: 70%;
+  width: 60%;
   margin: auto;
   display: flex;
   justify-content: end;
 
   p {
       text-align: center;
-      font-size: 8px;
+      font-size: 16px;
       font-weight: 300;
-      letter-spacing: 0.3px;
-      line-height: 13px;
-      margin-bottom: 15px;
-      padding-right: 81px;
+      letter-spacing: 2px;
+      line-height: 23px;
+      margin-bottom: 65px;
+      padding-right: 56px;
     }
 
 
     img {
-      height: 25px;
+      height: 50px;
     }
 
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 
 }
 
@@ -72,8 +73,8 @@
 }
 
 .press-blog {
-  width: 150px;
-  height: 190px;
+  width: 100%;
+  height: 330px;
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -83,13 +84,13 @@
 }
 
 .press-blog>img {
-  height: 100px;
+  height: 55%;
   width: 100%;
   object-fit: cover;
 }
 
 .press-blog h2 {
-  font-size: 8px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 1.5px;
   margin: 0;
@@ -98,13 +99,30 @@
 
 .press-blog p {
   color: #697797;
-  font-size: 6px;
-  padding-bottom: 20px
+  font-size: 14px;
+  // padding-bottom: 20px
 }
 
 
 
 .press-blog-infos {
   text-align: left;
-  padding: 10px;
+  padding: 18px;
+}
+
+.load-more {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  button {
+        background-color: #fff;
+        border: 1px solid #697797;
+        box-shadow: none;
+        color: black;
+        padding: 11px 35px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Manrope";
+        letter-spacing: 2px;
+        border-radius: 3px;
+  }
 }
