@@ -65,10 +65,9 @@
 }
 
 
-.about-dropdown {
+.the-dropdown {
   // display: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  background: white;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 297px;
@@ -82,11 +81,6 @@
   border-radius: 4px;
   flex-direction: column;
 
-  .spacer {
-    height: 30px;
-    background: transparent !important;
-  }
-
   a {
     text-decoration: none;
     div {
@@ -98,7 +92,6 @@
     }
     h3 {
         text-decoration: none;
-        color: black;
         font-size: 16px;
         letter-spacing: 2px;
         font-weight: 600;
@@ -107,21 +100,56 @@
         padding-bottom: 3px;
       }
   }
+}
+
+.d-light {
+  background: white;
+
+  h3 {
+    color: black;
+  }
 
   a:hover {
     div {
-        background: linear-gradient(90deg, #DDE4FF 0%, #F5F4FF 100%);
-      }
+      background: linear-gradient(90deg, #DDE4FF 0%, #F5F4FF 100%);
+    }
   }
-
 }
+
+.d-dark {
+
+  background: #15141E;
+
+    h3 {
+      color: white;
+    }
+
+    a:hover {
+      div {
+        background: linear-gradient(90deg, #291B7E 0%, #260E45 100%);;
+      }
+    }
+}
+
+
 
 .dropdown-menu {
+  background-color: transparent !important;
   display: none;
   border: none;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
   margin-left: -25px;
+    .spacer {
+        height: 0.5rem;
+        background: transparent !important;
+      }
 }
 
-.ah:hover .dropdown-menu {
+.ah:hover .about-trigger {
+  display: block;
+}
+
+.t-dd:hover .training-trigger {
   display: block;
 }

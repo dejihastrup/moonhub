@@ -15,5 +15,5 @@ Rails.application.routes.draw do
   get 'about/press', to: 'about#press', as: :press
   get 'about/careers', to: 'about#careers', as: :career
   get 'blog', to: 'blog#home', as: :blog
-  get 'contact', to: 'pages#contact', as: :contact
+  get 'contact', to: 'contact#home', as: :contact
 end

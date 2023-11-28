@@ -3,40 +3,41 @@
   color: white;
   background-color: $bg-dark;
   width: 100%;
-  height: 129vh;
+  height: 139vh;
   // top: 0;
   // position: absolute;
-  margin-top: -64px;
-  background-image: url('aurora-bg.png');
+  margin-top: -120px;
+  background-image: url('io-bg.png');
   background-size: cover;
 }
 
 .io-info {
   // font-family: "Manrope";
-  padding-top: 12px;
-  width: 57%;
+  padding-top: 30px;
+  width: 62%;
   margin: auto;
   text-align: center;
-  font-size: 9px;
-  font-weight: 300;
-  letter-spacing: 0.8px;
-  line-height: 13px;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2.3px;
+  line-height: 26px;
 
   p {
-    margin-bottom: 12px;
+    margin-bottom: 40px;
   }
 }
 
 #io-title {
   padding-top: 13.5%;
   font-weight: 600;
-  font-size: 32px;
-  letter-spacing: 6px;
+  font-size: 62px;
+  letter-spacing: 12px;
 }
 
 .io-stats {
   padding-top: 15px;
-  width: 77%;
+  width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -49,35 +50,35 @@
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  width: 210px;
+  width: 450px;
 
   .percent {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 32px;
     color: #D0D2FF;
   }
 
   h3 {
     text-align: center;
     font-weight: 600;
-    font-size: 32px;
-    letter-spacing: 0.8px;
+    font-size: 62px;
+    letter-spacing: 1.5px;
     color: #D0D2FF;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
   }
 
   p {
-    font-size: 8px;
+    font-size: 15px;
     font-weight: 100;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
   }
 }
 
 #io-scroll {
-  font-size: 8px;
+  font-size: 18px;
   font-weight: 300;
-  letter-spacing: 1px;
-  padding-top: 30px;
+  letter-spacing: 2px;
+  padding-top: 100px;
   margin-bottom: 8px;
 }
 
@@ -87,18 +88,18 @@
   text-align: center;
 
   h3 {
-    padding-top: 40px;
-    padding-bottom: 30px;
-    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 38px;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
   }
 }
 
 .io-module {
   width: 77%;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .module-heading {
@@ -106,24 +107,24 @@
   text-align: center;
 
   h4 {
-      padding-bottom: 2px;
-      font-size: 16px;
+      padding-bottom: 10px;
+      font-size: 32px;
       font-weight: 600;
-      letter-spacing: 3px;
+      letter-spacing: 4px;
   }
 
   h6 {
-    padding-bottom: 2px;
-    font-size: 9px;
+    padding-bottom: 10px;
+    font-size: 20px;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
 
   p {
     padding-bottom: 20px;
-    font-size: 8px;
+    font-size: 15px;
     font-weight: 100;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
   }
 }
 
@@ -132,27 +133,27 @@
   justify-content: space-between;
 
   .module-pros {
-    width: 170px;
+    width: 300px;
     text-align: left;
     h5 {
-        padding-bottom: 2px;
-        font-size: 11px;
+        padding-bottom: 10px;
         font-weight: 600;
-        letter-spacing: 2px;
-        line-height: 16px;
-        width: 180px;
+        letter-spacing: 3px;
+        font-size: 24px;
+        line-height: 33px;
+        width: 370px;
     }
 
     img {
-      width: 170px;
-      padding-bottom: 10px;
+      width: 300px;
+      padding-bottom: 20px;
     }
 
     p {
-      font-size: 8px;
+      font-size: 16px;
       font-weight: 300;
-      letter-spacing: 0.6px;
-      line-height: 11px;
+      letter-spacing: 1px;
+      line-height: 21px;
     }
 
 
@@ -161,59 +162,60 @@
 
 .wellbeing-extra {
   margin: auto;
-  width: 500px;
+  width: 1000px;
   text-align: center;
   margin-top: 15px;
   margin-bottom: 30px;
 
   p {
-    font-size: 8px;
+    font-size: 16px;
     font-weight: 300;
-    letter-spacing: 0.6px;
-    line-height: 11px;
-  }
-
-  img {
-    width: 40px;
+    letter-spacing: 1px;
+    line-height: 21px;
     padding-bottom: 10px;
   }
 
+  img {
+    width: 100px;
+    padding-bottom: 30px;
+  }
+
   h6 {
-    letter-spacing: 1.2px;
+    font-size: 20px;
     font-weight: 600;
-    font-size: 9px;
+    letter-spacing: 2px;
   }
 }
 
 .module-cta {
    margin: auto;
-   width: 350px;
+   width: 500px;
    text-align: center;
-   margin-top: 15px;
+   margin-top: 50px;
 
    p {
      font-weight: 600;
-     font-size: 8px;
-     margin-bottom: 8px;
+     font-size: 16px;
+     margin-bottom: 40px;
    }
  }
 
  .wts-section {
     margin: auto;
-    width: 350px;
+    width: 900px;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 80px;
+    margin-bottom: 110px;
 
     img {
-        width: 60px;
-        padding-bottom: 10px;
+        width: 100px;
+        padding-bottom: 20px;
       }
 
       p {
-        letter-spacing: 1.2px;
+        font-size: 20px;
         font-weight: 600;
-        font-size: 9px;
+        letter-spacing: 2px;
       }
 
  }

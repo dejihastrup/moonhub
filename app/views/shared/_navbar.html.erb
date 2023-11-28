@@ -2,8 +2,47 @@
   <div class="navbar container">
     <%= image_tag "moonhub-logo" %>
     <%= link_to "HOME", root_path, class: "#{'active' if params[:action].upcase == 'HOME' && params[:controller].upcase == 'PAGES'}"%>
-    <%= link_to "TRAINING", training_path, class: "#{'active' if params[:controller].upcase == 'TRAINING'}"%>
-    <%= link_to "ABOUT", about_path, class: "#{'active' if params[:action].upcase == 'ABOUT'}" %>
+    <div class="t-dd">
+      <%= link_to "TRAINING", training_path, class: "#{'active' if params[:controller].upcase == 'TRAINING'}"%>
+        <div class="dropdown-menu training-trigger">
+          <div class="spacer"></div>
+              <div class="the-dropdown d-dark">
+                <%= link_to io_path do %>
+                  <div>
+                    <h3>IO</h3>
+                  </div>
+                <% end %>
+                <%= link_to elara_path do %>
+                  <div>
+                    <h3> ELARA </h3>
+                  </div>
+                <% end %>
+                <%= link_to studios_path do %>
+                  <div>
+                    <h3>STUDIOS</h3>
+                  </div>
+                <% end %>
+              </div>
+          </div>
+      </div>
+    <div class="ah">
+      <%= link_to "ABOUT", about_path, class: "#{'active' if params[:action].upcase == 'ABOUT'}" %>
+        <div class="dropdown-menu about-trigger">
+          <div class="spacer"></div>
+            <div class="the-dropdown d-dark">
+              <%= link_to press_path do %>
+                <div>
+                  <h3>PRESS</h3>
+                </div>
+              <% end %>
+              <%= link_to career_path do %>
+                <div>
+                  <h3> CAREERS </h3>
+                </div>
+              <% end %>
+            </div>
+          </div>
+      </div>
     <%= link_to "BLOG", blog_path, class:  "#{'active' if params[:action].upcase == 'BLOG'}" %>
     <%= link_to "CONTACT", contact_path, class: "#{'active' if params[:action].upcase == 'CONTACT'}" %>
     <div class="d-flex">
@@ -15,23 +54,45 @@
   <div class="navbar container">
     <%= image_tag "moonhub-logo-dark" %>
     <%= link_to "HOME", root_path, class: "dark "%>
-    <%= link_to "TRAINING", training_path, class: "dark " + "#{'active' if params[:action].upcase == 'TRAINING'}"%>
+    <div class="t-dd">
+      <%= link_to "TRAINING", training_path, class: "dark " + "#{'active' if params[:action].upcase == 'TRAINING'}"%>
+       <div class="dropdown-menu training-trigger">
+          <div class="spacer"></div>
+          <div class="the-dropdown d-light">
+            <%= link_to io_path do %>
+              <div>
+                <h3>IO</h3>
+              </div>
+            <% end %>
+            <%= link_to elara_path do %>
+              <div>
+                <h3> ELARA </h3>
+              </div>
+            <% end %>
+            <%= link_to studios_path do %>
+              <div>
+                <h3>STUDIOS</h3>
+              </div>
+            <% end %>
+          </div>
+      </div>
+    </div>
     <div class="ah">
     <%= link_to "ABOUT", about_path, class: "dark dropdown " + "#{'active' if params[:controller].upcase == 'ABOUT'}" %>
-    <div class="dropdown-menu">
-    <div class="spacer"></div>
-        <div class="about-dropdown">
-          <%= link_to press_path do %>
-            <div>
-              <h3>PRESS</h3>
-            </div>
-          <% end %>
-          <%= link_to career_path do %>
-            <div>
-              <h3> CAREERS </h3>
-            </div>
-          <% end %>
-        </div>
+    <div class="dropdown-menu about-trigger">
+      <div class="spacer"></div>
+          <div class="the-dropdown d-light">
+            <%= link_to press_path do %>
+              <div>
+                <h3>PRESS</h3>
+              </div>
+            <% end %>
+            <%= link_to career_path do %>
+              <div>
+                <h3> CAREERS </h3>
+              </div>
+            <% end %>
+          </div>
       </div>
     </div>
     <%= link_to "BLOG", blog_path, class:  "dark " + "#{'active' if params[:action].upcase == 'BLOG'}" %>

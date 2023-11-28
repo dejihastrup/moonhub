@@ -451,7 +451,7 @@ text-align: center;
 
 .cd-horizontal-timeline .events-content h2 {
   font-weight: bold;
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-family: "Manrope", "Helvetica", "sans-serif";
   font-weight: 700;
   line-height: 1.2;
@@ -468,13 +468,13 @@ text-align: center;
 }
 
 .cd-horizontal-timeline .events-content p {
-  font-size: 0.4rem;
+  font-size: 1rem;
   color: #959595;
 }
 
 .cd-horizontal-timeline .events-content em,
 .cd-horizontal-timeline .events-content p {
-  line-height: 1.6;
+  line-height: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -483,11 +483,11 @@ text-align: center;
   }
 
   .cd-horizontal-timeline .events-content em {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 
   .cd-horizontal-timeline .events-content p {
-    font-size: 0.4rem;
+    font-size: 1rem;
   }
 }
 
